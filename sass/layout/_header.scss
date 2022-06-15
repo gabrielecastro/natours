@@ -21,10 +21,8 @@
   }
   
   &__text-box {
-    position: absolute;
+    @include absoluteCenter;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* margem em relação à ele próprio e não ao elemento pai */
     text-align: center;
   }
 }
